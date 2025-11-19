@@ -926,6 +926,9 @@ button:active {
 }
 
 
+
+
+
 /* Media Queries */
 @media (min-width: 992px) {
     .dashboard-app {
@@ -1163,4 +1166,39 @@ button:active {
     font-size: 0.85rem;
     margin-top: 20px;
     padding-top: 20px;
+}
+
+.Sobrenosotrostitulo {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    max-width: 80rem;
+    font-family: "Manrope", sans-serif;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 229, 240, 0.85) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenido1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+
+.image-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 3rem;
+    width: auto;
 }
